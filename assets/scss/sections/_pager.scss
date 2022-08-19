@@ -1,0 +1,46 @@
+
+
+.pager-section {
+	padding: 227px 0 102px;
+	.pager-head {
+		h2 {
+			color: #fff;
+			font-size: 60px;
+			line-height: 72px;
+			text-transform: capitalize;
+			margin-bottom: 30px;
+		}
+		ul {
+			li {
+				display: inline-block;
+				position: relative;
+				padding: 0 16px 0 23px;
+				&:first-child {
+					padding-left: 0;
+				}
+				&:last-child {
+					&:before {
+						display: none;
+					}
+					padding-right: 0;
+				}
+				&:before {
+					content: '';
+					position: absolute;
+					top: 50%;
+					left: 100%;
+					width: 12px;
+					height: 1px;
+					background-color: #515159;
+					@include transform(translateY(-50%));
+				}
+				a, span {
+					display: inline-block;
+					color: #fff;
+					font-size: 14px;
+					opacity: 0.7;
+				}
+			}
+		}
+	}
+}

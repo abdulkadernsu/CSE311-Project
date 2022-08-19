@@ -1,0 +1,23 @@
+
+
+.section-title {
+	margin-bottom: 62px;
+	margin-top: -9px;
+	> span {
+		display: block;
+		font-size: 30px;
+		color: $primary-color;
+		font-family: $third-fontfamily;
+		margin-bottom: 16px;
+	}
+	> h2 {
+		color: #2F3237;
+		font-size: 50px;
+		font-weight: 700;
+		margin-bottom: 27px;
+	}
+	p {
+		color: #5D6978;
+		max-width: 415px;
+	}
+}

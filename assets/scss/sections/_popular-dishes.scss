@@ -1,0 +1,73 @@
+
+
+.popular-dishes {
+	.filters-nav {
+		margin-bottom: 30px;
+		li {
+			display: inline-block;
+			margin-right: 11px;
+			&:last-child {
+				margin-right: 0;
+			}
+			a {
+				display: inline-block;
+				color: $para-color;
+				font-size: 16px;
+				text-transform: capitalize;
+				background-color: #F4F7FD;
+				height: 40px;
+				line-height: 38px;
+				cursor: pointer;
+				padding: 0 30px;
+				border:2px solid transparent;
+				@include radius(50px);
+				@include transition(all 0.4s ease-in-out);
+				&.selected,
+				&:hover {
+					border-color: $primary-color;
+					background-color: #fff;
+					color: $primary-color;
+				}
+			}
+		}
+	}
+	.masonary {
+		float:left;
+		width:100%;
+		.pd-item {
+			.pd-thumbnail {
+				margin-bottom: 45px;
+				> img {
+					@include radius(10px);
+				}
+			}
+			> h3 {
+				color: #2F3237;
+				font-size: 20px;
+				margin-bottom: 18px;
+			}
+			> p {
+				max-width: 240px;
+				margin: 0 auto;
+				margin-bottom: 27px;
+			}
+			> strong {
+				font-size: 22px;
+				display: block;
+				color: $heading-color;
+				margin-bottom: 31px;
+			}
+		}
+	}
+	&.style2 {
+		.masonary {
+			margin-bottom: -70px;
+		}
+		.pd-item {
+			margin-bottom: 70px;
+		}
+		.filters-nav {
+			margin-bottom: 60px;
+		}
+	}
+}

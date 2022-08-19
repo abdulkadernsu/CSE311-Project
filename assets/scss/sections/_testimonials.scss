@@ -1,0 +1,29 @@
+
+.testimonials {
+	.testimonial-slide {
+		> p {
+			color: #5D6978;
+			max-width: 690px;
+			margin: 0 auto;
+			font-size: 20px;
+			line-height: 34px;
+			margin-bottom: 33px;
+		}
+		.testimonial-by {
+			> img {
+				margin-bottom: 21px;
+				border-radius: 50px;
+			}
+			> h4 {
+				color: #2F3237;
+				font-size: 20px;
+				margin-bottom: 9px;
+			}
+			> span {
+				display: block;
+				color: $para-color;
+				font-size: 14px;
+			}
+		}
+	}
+}

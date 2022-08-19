@@ -1,0 +1,46 @@
+
+@import 'fonts';
+@import 'reset';
+@import 'base';
+@import 'transition';
+@import 'custom';
+@import 'preloader';
+
+// SECTIONS
+
+@import 'sections/header';
+@import 'sections/banner';
+@import 'sections/services-home';
+@import 'sections/section-title';
+@import 'sections/featured-home';
+@import 'sections/proptz-home';
+@import 'sections/promotion-home';
+@import 'sections/testimonials';
+@import 'sections/popular-dishes';
+@import 'sections/order-application';
+@import 'sections/offer-posts';
+@import 'sections/newsletter';
+@import 'sections/blog-posts';
+@import 'sections/pager';
+@import 'sections/about-us';
+@import 'pages/testimonials/testimonials';
+@import 'sections/sidebar';
+@import 'sections/faqs';
+@import 'sections/404';
+@import 'pages/restaurants/listing-products';
+@import 'pages/restaurants/restaurant-details';
+@import 'pages/cart-page';
+@import 'pages/checkout';
+@import 'pages/profile';
+@import 'pages/login';
+
+
+// ABOUT PAGE 
+
+@import 'footer';
+
+//  RESPONSIVE 
+
+@import 'responsive';
+
+

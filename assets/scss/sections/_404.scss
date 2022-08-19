@@ -1,0 +1,26 @@
+
+
+.error-page {
+	> h2 {
+		font-size: 150px;
+		margin-top: -37px;
+		margin-bottom: -12px;
+	}
+	> h3 {
+		font-size: 32px;
+		margin-bottom: 22px;
+		font-weight: 700;
+		color: $heading-color;
+	}
+	> span {
+		display: block;
+		color: $para-color;
+		font-size: 16px;
+		margin-top: 25px;
+		margin-bottom: 28px;
+		a {
+			display: inline-block;
+			color: $primary-color;
+		}
+	}
+}

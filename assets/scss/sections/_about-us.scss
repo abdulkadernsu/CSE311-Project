@@ -1,0 +1,24 @@
+
+.about-us-sec {
+	.abt-img {
+		> img {
+			border-radius: 10px;
+		}
+	}
+	.about-content {
+		> h4 {
+			margin-top: 51px;
+			color: $para-color;
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 30px;
+			margin-bottom: 31px;
+		}
+	}
+	.proptz {
+		margin-bottom: 50px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
